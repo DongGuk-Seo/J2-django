@@ -11,7 +11,11 @@
     <title>Hello, pybo!</title>
 </head>
 <body>
+    <!-- navigation -->
+    {% include "navbar.html" %}
+    <!-- templates -->
     {% block content %}
     {% endblock %}
+<script src="{% static 'bootstrap.min.js' %}"></script>
 </body>
 </html>
